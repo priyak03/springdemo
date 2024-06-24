@@ -19,3 +19,8 @@ jobs:
     steps:
     - name: step2
       uses: actions/checkout@v4
+  job3:
+    runs-on: windows-latest
+    steps:
+    - name: step3
+      run: echo hello!     
